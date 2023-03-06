@@ -43,6 +43,9 @@ return {
       },
     })
   end,
+  config = function()
+    require("denops-lazy").load("bunsetsu.vim")
+  end,
 }
 ```
 
